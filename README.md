@@ -61,16 +61,24 @@ More toolkits:
 
 **Real-World Projects:**
 
-Go:
+Explicit SDD workflow:
 
-- [zeromicro/go-zero](https://github.com/zeromicro/go-zero) ![stars](https://img.shields.io/github/stars/zeromicro/go-zero.svg?style=flat&color=darkorange&cacheSeconds=86400) - Web and RPC framework for microservices.
+- [zeromicro/go-zero](https://github.com/zeromicro/go-zero) ![stars](https://img.shields.io/github/stars/zeromicro/go-zero.svg?style=flat&color=darkorange&cacheSeconds=86400) - (Go) Web and RPC framework for microservices.
   - AI & SDD setup: [zeromicro/ai-context](https://github.com/zeromicro/ai-context)
+- [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) ![stars](https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat.svg?style=flat&color=purple&cacheSeconds=86400) - (TypeScript, Electron) AI chat desktop app.
+  - SDD Instructions: [docs/spec-driven-dev.md](https://github.com/ThinkInAIXYZ/deepchat/blob/dev/docs/spec-driven-dev.md). Types of specs: architecture, features, and issues.
 
-JavaScript (including TypeScript, Node.js, Electron):
+Spec-driven agents/skills:
 
-- [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) ![stars](https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat.svg?style=flat&color=purple&cacheSeconds=86400) - AI chat desktop app.
-  - Instructions: [docs/spec-driven-dev.md](https://github.com/ThinkInAIXYZ/deepchat/blob/dev/docs/spec-driven-dev.md).
-  - Types of specs: architecture, features, and issues.
+- [ruvnet/RuView](https://github.com/ruvnet/RuView) ![stars](https://img.shields.io/github/stars/ruvnet/RuView.svg?style=flat&color=darkorange&cacheSeconds=86400) - (Rust) WiFi sensing platform, spatial intelligence.
+  - SPARC agent: [agents/sparc](https://github.com/ruvnet/RuView/blob/main/.claude/agents/sparc), [skills/sparc-methodology/SKILL.md](https://github.com/ruvnet/RuView/blob/main/.claude/skills/sparc-methodology/SKILL.md)
+
+Spec practices without a specific workflow:
+
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) ![stars](https://img.shields.io/github/stars/bytedance/deer-flow.svg?style=flat&color=darkorange&cacheSeconds=86400) - (Python) SuperAgent harness TUI.
+  - Has plans/specs markdown files, but does not specify toolkit or workflow.
+- [moeru-ai/airi](https://github.com/moeru-ai/airi) ![stars](https://img.shields.io/github/stars/moeru-ai/airi.svg?style=flat&color=darkorange&cacheSeconds=86400) - (TypeScript) Digital life creator.
+  - Has plans/specs markdown files, but does not specify toolkit or workflow.
 
 **Guides:**
 
@@ -97,8 +105,10 @@ More UI tools that are not built specifically for SDD:
 - Blogs:
   - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
   - [Spec-driven development: Using Markdown as a programming language when building with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/)
-- [First Principles Framework (FPF)](https://github.com/ailev/FPF) - A standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
-- Acceptance-driven development - [paul](https://github.com/ChristopherKahler/paul) ![stars](https://img.shields.io/github/stars/ChristopherKahler/paul.svg?style=flat&color=purple&cacheSeconds=86400) - Plan-Apply-Unify Loop, Structured AI-assisted development for Claude Code.
+- Related methodologies:
+  - [First Principles Framework (FPF)](https://github.com/ailev/FPF) - A standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
+  - Acceptance-driven development - [paul](https://github.com/ChristopherKahler/paul) ![stars](https://img.shields.io/github/stars/ChristopherKahler/paul.svg?style=flat&color=purple&cacheSeconds=86400) - Plan-Apply-Unify Loop, Structured AI-assisted development for Claude Code.
+- Critical views: [anti-sdd.md](anti-sdd.md)
 - GitHub topic: [#spec-driven-development](https://github.com/topics/spec-driven-development), [#spec-driven](https://github.com/topics/spec-driven).
 
 ## Contributing
