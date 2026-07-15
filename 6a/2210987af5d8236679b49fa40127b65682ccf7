@@ -1,0 +1,79 @@
+README.md
+  h_0edea1d180c192 64,68-69,71,73,78-79,81 gitai:{"mixed_line_ranges":[{"Single":64},{"Single":71}],"operations":[]}
+  s_13792ffbe7d4ff::t_949a00a5b0eee4 76
+  s_0504ea56c1df0a::t_266797d34d59ec 80
+anti-sdd.md
+  h_0edea1d180c192 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6a2210987af5d8236679b49fa40127b65682ccf7",
+  "prompts": {},
+  "humans": {
+    "h_0edea1d180c192": {
+      "author": "Dorence Deng <dorencedeng@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0504ea56c1df0a": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-90958b56-8dc1-4e2e-a1c1-79d0539a79be",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_13792ffbe7d4ff": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-94c23704-109f-49d7-b8ed-d25c92dd9ee0",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    }
+  },
+  "attestation_metadata": {
+    "README.md": [
+      {
+        "hash": "h_0edea1d180c192",
+        "line_ranges": [
+          {
+            "Single": 64
+          },
+          {
+            "Range": [
+              68,
+              69
+            ]
+          },
+          {
+            "Single": 71
+          },
+          {
+            "Single": 73
+          },
+          {
+            "Range": [
+              78,
+              79
+            ]
+          },
+          {
+            "Single": 81
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 64
+          },
+          {
+            "Single": 71
+          }
+        ],
+        "operations": []
+      }
+    ]
+  },
+  "remote_transcripts": {}
+}
