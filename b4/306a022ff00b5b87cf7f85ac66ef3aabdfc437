@@ -1,0 +1,457 @@
+.gitignore
+  s_890ccf2de0127e::t_d529a0db54f033 3
+  s_890ccf2de0127e::t_2554c9427aa324 1-2
+curated-sdd-lists.md
+  h_0edea1d180c192 1,3,5-9 gitai:{"mixed_line_ranges":[{"Single":1},{"Single":3},{"Range":[5,7]}],"operations":[]}
+README.md
+  s_899cc069c5e9cb::t_4aafb430f33179 20 gitai:{"mixed_line_ranges":[{"Single":20}],"operations":[]}
+  h_0edea1d180c192 7,10-11,13-16,18,22-23,25-29,31,33,36,50,55-56,58,66,78-85,88,90-93,96,100,106 gitai:{"mixed_line_ranges":[{"Single":7},{"Single":11},{"Single":33},{"Single":88},{"Single":96},{"Single":106}],"operations":[]}
+  s_12e310b1926fbe::t_ad529c7c92ebdf 101
+  s_6aa898fe403b84::t_57226b0ed6dfb5 52 gitai:{"mixed_line_ranges":[{"Single":52}],"operations":[]}
+  s_72f7e1752716f3::t_e2ac7b8bdf4f20 24
+  s_990e15e9e5f40d::t_96b51ca0d517d0 35 gitai:{"mixed_line_ranges":[{"Single":35}],"operations":[]}
+  s_34c75c9a562cd9::t_085b0f6b89dea8 41 gitai:{"mixed_line_ranges":[{"Single":41}],"operations":[]}
+  s_c756747432b3ee::t_84fe8876bc8f02 102 gitai:{"mixed_line_ranges":[{"Single":102}],"operations":[]}
+  s_620d1dc4a0b34c::t_cdbefcc8fcb371 1
+  s_0fbe7d00224f97::t_347d481474edad 104 gitai:{"mixed_line_ranges":[{"Single":104}],"operations":[]}
+  s_ce04d4c554a1a2::t_914e33de19b540 9 gitai:{"mixed_line_ranges":[{"Single":9}],"operations":[]}
+  s_920b7841f7d954::t_f25da6cd6b3a74 3
+  s_1eb4e1a82505c4::t_e784ee7820c53b 54,57 gitai:{"mixed_line_ranges":[{"Single":54},{"Single":57}],"operations":[]}
+  s_4f7e4737002cf4::t_028c4f9c6349b6 48
+  s_63aeceae956177::t_53793800cafa42 86
+  s_fe9c3edf88353e::t_199764e37d0fcc 5
+  s_c73c7167af45ba::t_f865fe1bc74ad3 42-45 gitai:{"mixed_line_ranges":[{"Single":42},{"Single":45}],"operations":[]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b4306a022ff00b5b87cf7f85ac66ef3aabdfc437",
+  "prompts": {},
+  "humans": {
+    "h_0edea1d180c192": {
+      "author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "h_40810b526e0846": {
+      "author": "xun.deng <dengxun@bytedance.com>"
+    }
+  },
+  "sessions": {
+    "s_0fbe7d00224f97": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-6111736f-f255-4c84-a4f6-943368be8a40",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_12e310b1926fbe": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-a32fea27-495a-4564-be83-9bea4f9ef3e1",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_1eb4e1a82505c4": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-46e00cdf-0a35-4ad7-be6b-26e9db2af15b",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_34c75c9a562cd9": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-bc4fdfbb-b09f-495c-a25d-7ae08880374f",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_4f7e4737002cf4": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-45159cdb-c9d8-4622-a906-4a620f9c3abd",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_620d1dc4a0b34c": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-b301297b-f2e5-4b6a-b6e4-89b860b03167",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_63aeceae956177": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-26d91719-f842-45fe-8605-12a053c12e00",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_6aa898fe403b84": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-6f1eba1e-9825-494f-80c3-a3c900337523",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_72f7e1752716f3": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-b26756a4-d6aa-4e9c-94af-be522d43ddb5",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_890ccf2de0127e": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-7b071d33-2812-4cab-bba1-ab470655c126",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_899cc069c5e9cb": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-2388dc34-45ff-4bbb-b041-81929befcadc",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_920b7841f7d954": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-7e9eff5a-1878-4543-abd8-5c294076abcf",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_990e15e9e5f40d": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-c158e3c3-47f8-4a17-8645-1ef3cb95ad0a",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_c73c7167af45ba": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-8a96e11c-79de-46bc-a01b-af8bf67f3849",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_c756747432b3ee": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-4e58e93a-e5de-4744-83aa-26acb2013ce8",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_ce04d4c554a1a2": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-169704e4-934a-4a25-bffd-448e66cbe3aa",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_fe9c3edf88353e": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-1a64033b-6697-49ab-9f35-d4932465dd70",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    }
+  },
+  "attestation_metadata": {
+    "README.md": [
+      {
+        "hash": "s_899cc069c5e9cb::t_4aafb430f33179",
+        "line_ranges": [
+          {
+            "Single": 20
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 20
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "h_0edea1d180c192",
+        "line_ranges": [
+          {
+            "Single": 7
+          },
+          {
+            "Range": [
+              10,
+              11
+            ]
+          },
+          {
+            "Range": [
+              13,
+              16
+            ]
+          },
+          {
+            "Single": 18
+          },
+          {
+            "Range": [
+              22,
+              23
+            ]
+          },
+          {
+            "Range": [
+              25,
+              29
+            ]
+          },
+          {
+            "Single": 31
+          },
+          {
+            "Single": 33
+          },
+          {
+            "Single": 36
+          },
+          {
+            "Single": 50
+          },
+          {
+            "Range": [
+              55,
+              56
+            ]
+          },
+          {
+            "Single": 58
+          },
+          {
+            "Single": 66
+          },
+          {
+            "Range": [
+              78,
+              85
+            ]
+          },
+          {
+            "Single": 88
+          },
+          {
+            "Range": [
+              90,
+              93
+            ]
+          },
+          {
+            "Single": 96
+          },
+          {
+            "Single": 100
+          },
+          {
+            "Single": 106
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 7
+          },
+          {
+            "Single": 11
+          },
+          {
+            "Single": 33
+          },
+          {
+            "Single": 88
+          },
+          {
+            "Single": 96
+          },
+          {
+            "Single": 106
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_6aa898fe403b84::t_57226b0ed6dfb5",
+        "line_ranges": [
+          {
+            "Single": 52
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 52
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_990e15e9e5f40d::t_96b51ca0d517d0",
+        "line_ranges": [
+          {
+            "Single": 35
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 35
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_34c75c9a562cd9::t_085b0f6b89dea8",
+        "line_ranges": [
+          {
+            "Single": 41
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 41
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_c756747432b3ee::t_84fe8876bc8f02",
+        "line_ranges": [
+          {
+            "Single": 102
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 102
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_0fbe7d00224f97::t_347d481474edad",
+        "line_ranges": [
+          {
+            "Single": 104
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 104
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_ce04d4c554a1a2::t_914e33de19b540",
+        "line_ranges": [
+          {
+            "Single": 9
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 9
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_1eb4e1a82505c4::t_e784ee7820c53b",
+        "line_ranges": [
+          {
+            "Single": 54
+          },
+          {
+            "Single": 57
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 54
+          },
+          {
+            "Single": 57
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_c73c7167af45ba::t_f865fe1bc74ad3",
+        "line_ranges": [
+          {
+            "Range": [
+              42,
+              45
+            ]
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 42
+          },
+          {
+            "Single": 45
+          }
+        ],
+        "operations": []
+      }
+    ],
+    "curated-sdd-lists.md": [
+      {
+        "hash": "h_0edea1d180c192",
+        "line_ranges": [
+          {
+            "Single": 1
+          },
+          {
+            "Single": 3
+          },
+          {
+            "Range": [
+              5,
+              9
+            ]
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 1
+          },
+          {
+            "Single": 3
+          },
+          {
+            "Range": [
+              5,
+              7
+            ]
+          }
+        ],
+        "operations": []
+      }
+    ]
+  },
+  "remote_transcripts": {}
+}
