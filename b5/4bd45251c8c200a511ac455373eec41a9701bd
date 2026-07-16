@@ -1,0 +1,101 @@
+README.md
+  s_46f586b01f4eeb::t_f7705670d62288 101
+  s_d91f12734d2c7d::t_7d26c25e097829 111
+  h_0edea1d180c192 62,120 gitai:{"mixed_line_ranges":[{"Single":120}],"operations":[]}
+  s_8d11dbfea11e57::t_4a64c40266c8b6 65
+  s_fe5edd872f6b8a::t_895cb80dc738ca 34 gitai:{"mixed_line_ranges":[{"Single":34}],"operations":[]}
+  s_7930df4af46831::t_fce2e6fd4385ff 100
+  s_fe5edd872f6b8a::t_9ac24a595f5b03 33
+  s_fe5edd872f6b8a::t_747d941deee5d2 35
+  s_8d11dbfea11e57::t_f41b76944f1378 66-68
+  s_d91f12734d2c7d::t_460536b36f85f6 112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b54bd45251c8c200a511ac455373eec41a9701bd",
+  "prompts": {},
+  "humans": {
+    "h_0edea1d180c192": {
+      "author": "Dorence Deng <dorencedeng@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_46f586b01f4eeb": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-20260716141109DAFFC328A4B177DA1E9B",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_7930df4af46831": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-82485210-8ba7-4b15-b101-1cf0863f0327",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_8d11dbfea11e57": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-29ed67a7-b3e0-41b8-a726-259849ed441f",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_d91f12734d2c7d": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-815c0738-27eb-414b-bbe7-51d2ad0f54e8",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    },
+    "s_fe5edd872f6b8a": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-385b9897-e241-41f7-8a36-d303ca604968",
+        "model": "default"
+      },
+      "human_author": "Dorence Deng <dorencedeng@gmail.com>"
+    }
+  },
+  "attestation_metadata": {
+    "README.md": [
+      {
+        "hash": "h_0edea1d180c192",
+        "line_ranges": [
+          {
+            "Single": 62
+          },
+          {
+            "Single": 120
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 120
+          }
+        ],
+        "operations": []
+      },
+      {
+        "hash": "s_fe5edd872f6b8a::t_895cb80dc738ca",
+        "line_ranges": [
+          {
+            "Single": 34
+          }
+        ],
+        "mixed_line_ranges": [
+          {
+            "Single": 34
+          }
+        ],
+        "operations": []
+      }
+    ]
+  },
+  "remote_transcripts": {}
+}
