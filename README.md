@@ -30,9 +30,9 @@ How does the industry define it?
 
 🔥 Popular toolkits:
 
-- [github/spec-kit](https://github.com/github/spec-kit) ![stars](https://img.shields.io/github/stars/github/spec-kit.svg?style=flat&color=crimson&cacheSeconds=86400) - Specify → Plan → Tasks → Implement → Converge.
-- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ![stars](https://img.shields.io/github/stars/Fission-AI/OpenSpec.svg?style=flat&color=darkorange&cacheSeconds=86400) - [OPSX workflow](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md): Proposal → Specs → Design → Tasks → Implement.
-- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) ![stars](https://img.shields.io/github/stars/open-gsd/gsd-core.svg?style=flat&color=purple&cacheSeconds=86400) - Discuss → Plan → Execute → Verify → Ship. (GSD=Git. Ship. Done.) [Previous repository](https://github.com/gsd-build/get-shit-done)
+- [github/spec-kit](https://github.com/github/spec-kit) ![stars](https://img.shields.io/github/stars/github/spec-kit.svg?style=flat&color=crimson&cacheSeconds=86400) ![pypi](https://img.shields.io/pypi/dm/specify-cli?label=pypi&cacheSeconds=604800) - Specify → Plan → Tasks → Implement → Converge.
+- [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) ![stars](https://img.shields.io/github/stars/Fission-AI/OpenSpec.svg?style=flat&color=darkorange&cacheSeconds=86400) ![npm](https://img.shields.io/npm/dm/@fission-ai/openspec?label=npm&cacheSeconds=604800) - [OPSX workflow](https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md): Proposal → Specs → Design → Tasks → Implement.
+- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) ![stars](https://img.shields.io/github/stars/open-gsd/gsd-core.svg?style=flat&color=purple&cacheSeconds=86400) ![npm](https://img.shields.io/npm/dm/@opengsd/gsd-core?label=npm&cacheSeconds=604800) - Discuss → Plan → Execute → Verify → Ship. (GSD=Git. Ship. Done.) [Previous repository](https://github.com/gsd-build/get-shit-done)
 
 More toolkits:
 
@@ -54,8 +54,17 @@ More toolkits:
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ![stars](https://img.shields.io/github/stars/addyosmani/agent-skills.svg?style=flat&color=darkorange&cacheSeconds=86400) - Production-grade engineering skills for AI coding agents. [SDD skill](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md): Spec → Plan → Tasks → Implement.
 - [gotalab/cc-sdd](https://github.com/gotalab/cc-sdd) ![stars](https://img.shields.io/github/stars/gotalab/cc-sdd.svg?style=flat&color=purple&cacheSeconds=86400) - Skill enhancing Kiro SDD.
 - [zhu1090093659/spec_driven_develop](https://github.com/zhu1090093659/spec_driven_develop) ![stars](https://img.shields.io/github/stars/zhu1090093659/spec_driven_develop.svg?style=flat&color=blue&cacheSeconds=86400) - SDD workflow for AI Agents.
+- [formulahendry/mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development) ![stars](https://img.shields.io/github/stars/formulahendry/mcp-server-spec-driven-development.svg?style=flat&color=blue&cacheSeconds=86400) - MCP that provides SDD prompts.
 - [madebyaris/spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor) ![stars](https://img.shields.io/github/stars/madebyaris/spec-kit-command-cursor.svg?style=flat&color=blue&cacheSeconds=86400) - SDD workflow for Cursor IDE.
 - [liatrio-labs/spec-driven-workflow](https://github.com/liatrio-labs/spec-driven-workflow) ![stars](https://img.shields.io/github/stars/liatrio-labs/spec-driven-workflow.svg?style=flat&color=forestgreen&cacheSeconds=86400) - SDD workflow skill: Spec → Tasks → Implement → Validate.
+
+<details>
+<summary>Recommended package manager:</summary>
+<ul>
+  <li> Python: uv, pip (standard).
+  <li> Node.js: pnpm, npm (default).
+</ul>
+</details>
 
 ## Where to Learn SDD?
 
@@ -88,8 +97,8 @@ Spec practices without a specific workflow:
 
 Toolkits mentioned above:
 
-- [codervisor/leanspec](https://github.com/codervisor/leanspec)
-- [Priivacy-ai/spec-kitty](https://github.com/Priivacy-ai/spec-kitty)
+- [codervisor/leanspec](https://github.com/codervisor/leanspec) - Web UI / Desktop app.
+- [Priivacy-ai/spec-kitty](https://github.com/Priivacy-ai/spec-kitty) - Web UI.
 
 UI tools for SDD management:
 
@@ -99,6 +108,8 @@ More UI tools that are not built specifically for SDD:
 
 - [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) ![stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban.svg?style=flat&color=darkorange&cacheSeconds=86400) - Visualizes workspace with plans (specs), chats and code.
 
+> There are lots of commercial or close-source applications that support spec-driven workflows, but I haven't tried them.
+
 ## Further Reading
 
 - More curated spec-driven development lists: [curated-sdd-lists.md](curated-sdd-lists.md)
@@ -106,7 +117,7 @@ More UI tools that are not built specifically for SDD:
   - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
   - [Spec-driven development: Using Markdown as a programming language when building with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/)
 - Related methodologies:
-  - [First Principles Framework (FPF)](https://github.com/ailev/FPF) - A standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
+  - [First Principles Framework (FPF)](https://github.com/ailev/FPF) ![stars](https://img.shields.io/github/stars/ailev/FPF.svg?style=flat&color=blue&cacheSeconds=86400) - A standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
   - Acceptance-driven development - [paul](https://github.com/ChristopherKahler/paul) ![stars](https://img.shields.io/github/stars/ChristopherKahler/paul.svg?style=flat&color=purple&cacheSeconds=86400) - Plan-Apply-Unify Loop, Structured AI-assisted development for Claude Code.
 - Critical views: [anti-sdd.md](anti-sdd.md)
 - GitHub topic: [#spec-driven-development](https://github.com/topics/spec-driven-development), [#spec-driven](https://github.com/topics/spec-driven).
