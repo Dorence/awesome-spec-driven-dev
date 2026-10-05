@@ -45,6 +45,8 @@ More toolkits:
 - [acnlabs/MetaSpec](https://github.com/acnlabs/MetaSpec) ![stars](https://img.shields.io/github/stars/acnlabs/MetaSpec.svg?style=flat&color=forestgreen&cacheSeconds=86400)
 - [hffmnnj/goopspec](https://github.com/hffmnnj/goopspec) ![stars](https://img.shields.io/github/stars/hffmnnj/goopspec.svg?style=flat&color=forestgreen&cacheSeconds=86400) - Discuss → Plan → Execute → Accept.
 
+- [vitalik1921/cage](https://github.com/vitalik1921/cage) ![stars](https://img.shields.io/github/stars/vitalik1921/cage.svg?style=flat&color=forestgreen&cacheSeconds=86400) - TypeScript contract harness: spec → implementation → invariant-linked tests → fresh review.
+
 **I want an agentic IDE with native SDD features:**
 
 - [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro) ![stars](https://img.shields.io/github/stars/kirodotdev/Kiro.svg?style=flat&color=purple&cacheSeconds=86400) - Supports feature/bugfix [specs](https://kiro.dev/docs/specs/) in workflow: Requirements → Design → Tasks. [Guide](https://github.com/jasonkneen/kiro) by Jason.
